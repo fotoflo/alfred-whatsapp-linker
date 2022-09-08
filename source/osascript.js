@@ -15,6 +15,13 @@ function filter(clipboard) {
     return "NAN";
   }
 
+  if (clipboard.match(/^[0]/)) {
+    // local number in indonesia
+    // replace first letter 0 with 62
+    console.log("local number in indonesia");
+    clipboard = clipboard.replace(/^(0)/, "62");
+  }
+
   clipboard = clipboard.replace(/\D/g, "");
   clipboard = "https://api.whatsapp.com/send?phone=" + "+" + clipboard;
   return clipboard;
