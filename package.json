@@ -1,0 +1,28 @@
+{
+  "name": "alfred-whatsapp-linker",
+  "version": "0.2.0",
+  "description": "an alfred workflow grab a phone number from the clipboard and open a conversation with that number in whatsapp",
+  "main": "osascript.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fotoflo/alfred-whatsapp-linker.git"
+  },
+  "keywords": [
+    "alfred",
+    "whatsapp",
+    "workflow",
+    "macro"
+  ],
+  "author": "Alex Miller <fotoflo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fotoflo/alfred-whatsapp-linker/issues"
+  },
+  "homepage": "https://github.com/fotoflo/alfred-whatsapp-linker#readme",
+  "dependencies": {
+    "jest": "^29.0.2"
+  }
+}
