@@ -23,7 +23,7 @@ function filter(clipboard) {
   }
 
   clipboard = clipboard.replace(/\D/g, "");
-  clipboard = "https://api.whatsapp.com/send?phone=" + "+" + clipboard;
+  clipboard = "https://api.whatsapp.com/send?phone=" + clipboard;
   return clipboard;
 }
 
@@ -32,4 +32,5 @@ function run() {
   return filter(clipboard);
 }
 
-exports.filter = filter;
+// uncomment next line to run tests
+// exports.filter = filter;

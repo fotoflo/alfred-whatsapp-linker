@@ -20,3 +20,7 @@ Alfred will open the link in the browser and the browser will redirect over to t
 
 Alfred will show a push notification indicating the number is invalid
 
+3. if the number is valid and starts with a zero 
+  
+Alfred will append the country code 62
+and then Alfred will open the link in the browser and the browser will redirect over to the whatsapp app
