@@ -26,9 +26,11 @@ and then Alfred will open the link in the browser and the browser will redirect 
 
 # to run test suite
 1. `npm install`
-2. uncomment the last light of the osascript file
-3. npm run jest
+2. uncomment the last line of the osascript file ( `exports.filter = filter;` )
+3. `npm run jest`
 
 # to package for alfred
 1. paste the workflow into the script in the existing workflow 
 2. export
+
+# to do - figure out how to automate packaging
